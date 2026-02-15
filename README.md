@@ -18,7 +18,7 @@ A simple, fast, and convenient terminal text converter that transforms regular l
 
 | Normal | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
 |--------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **Wizard** | **Ǟ** | **Ɓ** | **Ƈ** | **Ɖ** | **Ɛ** | **Ƒ** | **Ɠ** | **Ɦ** | **Ɨ** | **Ј** | **Ӄ** | **Ł** | **Ɱ** | **Ռ** | **Օ** | **Ք** | **Ԛ** | **Ʀ** | **Ֆ** | **Ŧ** | **Ʊ** | **Ʋ** | **Ա** | **Ӿ** | **Ƴ** | **Ʒ** |
+| **Wizard** | **Ǟ** | **Ɓ** | **Ƈ** | **Ɖ** | **Ɛ** | **Ƒ** | **Ɠ** | **Ɦ** | **Ɨ** | **Ɉ** | **Ӄ** | **Ł** | **Ɱ** | **Ռ** | **Օ** | **Ք** | **Ԛ** | **Ʀ** | **Ֆ** | **Ŧ** | **Ʊ** | **Ʋ** | **Ա** | **Ӿ** | **Ƴ** | **Ƶ** |
 
 > **Note**: All mappings are **one-to-one** (bijective), ensuring perfect reversibility. Modified characters (B,F,G,J,L,M,T,X,Y,Z) use visually similar Unicode glyphs to eliminate ambiguity.
 
