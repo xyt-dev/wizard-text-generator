@@ -59,9 +59,19 @@ jobs:
       - name: Build
         run: cargo build --release --target ${{ matrix.target }}
       
+      - name: Rename binary
+        shell: bash
+        run: |
+          cd target/${{ matrix.target }}/release
+          if [ -f wizard_text_generator.exe ]; then
+            mv wizard_text_generator.exe ${{ matrix.asset_name }}
+          else
+            mv wizard_text_generator ${{ matrix.asset_name }}
+          fi
+      
       - name: Upload binaries to release
         uses: softprops/action-gh-release@v1
         with:
-          files: target/${{ matrix.target }}/release/${{ matrix.artifact_name }}
+          files: target/${{ matrix.target }}/release/${{ matrix.asset_name }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
