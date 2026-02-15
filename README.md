@@ -1,4 +1,4 @@
-# ꝡizardTextGenerator
+# ƜizardTextGenerator
 
 [中文文档](./README_CN.md) | English | [Ɯɨʐǟʀɖ](./README_WIZARD.md)
 
@@ -106,7 +106,7 @@ Example session:
 $ wtg
 
     ╔══════════════════════════════════════════════╗
-    ║   ꝡizardTextGenerator                        ║
+    ║   ƜizardTextGenerator                        ║
     ║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━     ║
     ║   Ƭʀǟռֆʄօʀʍ ȶɛӼȶ ɨռȶօ ʍǟɢɨƈǟʟ ƈɦǟʀǟƈȶɛʀֆ     ║
     ╚══════════════════════════════════════════════╝

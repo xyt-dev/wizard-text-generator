@@ -1,4 +1,4 @@
-# ꝡizardTextGenerator
+# ƜizardTextGenerator
 
 中文 | [English](./README.md) | [Ɯɨʐǟʀɖ](./README_WIZARD.md)
 
@@ -104,7 +104,7 @@ wtg
 $ wtg
 
     ╔══════════════════════════════════════════════╗
-    ║   ꝡizardTextGenerator                        ║
+    ║   ƜizardTextGenerator                        ║
     ║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━     ║
     ║   Ƭʀǟռֆʄօʀʍ ȶɛӼȶ ɨռȶօ ʍǟɢɨƈǟʟ ƈɦǟʀǟƈȶɛʀֆ     ║
     ╚══════════════════════════════════════════════╝
