@@ -18,9 +18,9 @@ A simple, fast, and convenient terminal text converter that transforms regular l
 
 | Normal | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
 |--------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **Wizard** | **Ǟ** | **Ɓ** | **Ƈ** | **Ɖ** | **Ɛ** | **Ƒ** | **Ɠ** | **Ɦ** | **Ɨ** | **Ɉ** | **Ӄ** | **Ł** | **Ɱ** | **Ռ** | **Օ** | **Ք** | **Ԛ** | **Ʀ** | **Ֆ** | **Ŧ** | **Ʊ** | **Ʋ** | **Ꝡ** | **Ӿ** | **Ƴ** | **Ƶ** |
+| **Wizard** | **Ǟ** | **Ɓ** | **Ƈ** | **Ɖ** | **Ɛ** | **Ƒ** | **Ɠ** | **Ɦ** | **Ɨ** | **Ɉ** | **Ӄ** | **Ł** | **Ɱ** | **Ռ** | **Ø** | **Ք** | **Ԛ** | **Ʀ** | **Ֆ** | **Ŧ** | **Ʊ** | **Ʋ** | **Ꝡ** | **Ӿ** | **Ƴ** | **Ƶ** |
 
-> **Note**: All mappings are **one-to-one** (bijective), ensuring perfect reversibility. Modified characters (B,F,G,J,L,M,T,W,X,Y,Z) use visually similar Unicode glyphs to eliminate ambiguity.
+> **Note**: All mappings are **one-to-one** (bijective), ensuring perfect reversibility. Modified characters (B,F,G,J,L,M,O,T,W,X,Y,Z) use visually similar Unicode glyphs to eliminate ambiguity.
 
 ## Installation
 
@@ -138,11 +138,11 @@ wizard_text_generator -r "ɦɛʟʟօ աօʀʟɖ"
 
 # Uppercase conversion
 wizard_text_generator "HELLO WORLD"
-# Output: ꞪƐŁŁՕ ԱՕƦŁƉ
+# Output: ꞪƐŁŁØ ꝠØƦŁƉ
 
 # Mixed case
 wizard_text_generator "Hello World"
-# Output: Ɦɛʟʟօ Աօʀʟɖ
+# Output: Ɦɛʟʟօ Ꝡօʀʟɖ
 ```
 
 ### 2. Pipe Input
@@ -176,11 +176,11 @@ echo "Rust is awesome" | wizard_text_generator
 
 # Full uppercase alphabet conversion
 ./target/release/wizard_text_generator "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-# Output: ǞƁƇƉƐƑƓꞪƗꞲӃŁⱮՌՕՔԚƦՖŦƱƲԱӾƳƷ
+# Output: ǞƁƇƉƐƑƓꞪƗɈӃŁⱮՌØՔԚƦՖŦƱƲꝠӾƳƵ
 
 # Mixed text (non-alphabetic characters remain unchanged)
 ./target/release/wizard_text_generator "Hello, World! 123"
-# Output: Ɦɛʟʟօ, Աօʀʟɖ! 123
+# Output: Ɦɛʟʟօ, Ꝡօʀʟɖ! 123
 
 # Reverse conversion
 ./target/release/wizard_text_generator -r "ɦɛʟʟօ"

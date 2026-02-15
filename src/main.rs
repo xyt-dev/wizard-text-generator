@@ -8,9 +8,9 @@ fn create_mapping() -> (HashMap<char, char>, HashMap<char, char>) {
     let wizard_lower = "ǟɮƈɖɛʄɢɦɨʝӄʟʍռօքզʀֆȶʊʋաӼʏʐ";
     
     // A-Z 映射到魔法字符（大写）- 消除歧义的一对一映射
-    // 修改了 B,F,G,J,L,M,T,W,X,Y,Z 以确保每个字符都有唯一映射且跨平台兼容
+    // 修改了 B,F,G,J,L,M,O,T,W,X,Y,Z 以确保每个字符都有唯一映射且跨平台兼容
     let normal_upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    let wizard_upper = "ǞƁƇƉƐƑƓꞪƗɈӃŁⱮՌՕՔԶƦՖŦƱƲꝠӾƳƵ";
+    let wizard_upper = "ǞƁƇƉƐƑƓꞪƗɈӃŁⱮՌØՔԶƦՖŦƱƲꝠӾƳƵ";
     
     let mut to_wizard = HashMap::new();
     let mut to_normal = HashMap::new();
