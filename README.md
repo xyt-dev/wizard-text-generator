@@ -18,7 +18,7 @@ A simple, fast, and convenient terminal text converter that transforms regular l
 
 | Normal | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
 |--------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **Wizard** | **Ǟ** | **Ɓ** | **Ƈ** | **Ɖ** | **Ɛ** | **Ƒ** | **Ɠ** | **Ɦ** | **Ɨ** | **Ɉ** | **Ӄ** | **Ł** | **Ɱ** | **Ռ** | **Ø** | **Ք** | **Զ** | **Ʀ** | **Ֆ** | **Ŧ** | **Ʊ** | **Ʋ** | **Ꝡ** | **Ӿ** | **Ƴ** | **Ƶ** |
+| **Wizard** | **Ǟ** | **Ɓ** | **Ƈ** | **Ɖ** | **Ɛ** | **Ƒ** | **Ɠ** | **Ɦ** | **Ɨ** | **Ɉ** | **Ӄ** | **Ł** | **Ɱ** | **Ռ** | **Ø** | **Ք** | **Զ** | **Ʀ** | **Ֆ** | **Ƭ** | **Ʊ** | **Ʋ** | **Ꝡ** | **Ҳ** | **Ƴ** | **Ȥ** |
 
 > **Note**: All mappings are **one-to-one** (bijective), ensuring perfect reversibility. Modified characters (B,F,G,J,L,M,O,T,W,X,Y,Z) use visually similar Unicode glyphs to eliminate ambiguity.
 
@@ -176,7 +176,7 @@ echo "Rust is awesome" | wizard_text_generator
 
 # Full uppercase alphabet conversion
 ./target/release/wizard_text_generator "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-# Output: ǞƁƇƉƐƑƓꞪƗɈӃŁⱮՌØՔԶƦՖŦƱƲꝠӾƳƵ
+# Output: ǞƁƇƉƐƑƓꞪƗɈӃŁⱮՌØՔԶƦՖƬƱƲꝠҲƳȤ
 
 # Mixed text (non-alphabetic characters remain unchanged)
 ./target/release/wizard_text_generator "Hello, World! 123"
