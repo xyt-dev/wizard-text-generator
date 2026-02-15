@@ -40,6 +40,11 @@ cargo install --path .
 
 这会将二进制文件安装到 `~/.cargo/bin/wizard_text_generator`（确保 `~/.cargo/bin` 在你的 PATH 中）
 
+```bash
+# 可选：创建更短的别名
+ln -s ~/.cargo/bin/wizard_text_generator ~/.cargo/bin/wtg
+```
+
 #### 方法 2：手动安装到 `/usr/local/bin`
 
 ```bash

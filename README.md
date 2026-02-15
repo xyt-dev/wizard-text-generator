@@ -42,6 +42,11 @@ cargo install --path .
 
 This will install the binary to `~/.cargo/bin/wizard_text_generator` (make sure `~/.cargo/bin` is in your PATH)
 
+```bash
+# Optional: Create a shorter alias
+ln -s ~/.cargo/bin/wizard_text_generator ~/.cargo/bin/wtg
+```
+
 #### Method 2: Manual Installation to `/usr/local/bin`
 
 ```bash
