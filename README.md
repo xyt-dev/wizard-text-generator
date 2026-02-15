@@ -1,6 +1,6 @@
 # ꝡizardTextGenerator
 
-[中文文档](./README_CN.md) | English | [Ꝡɨʐǟʀɖ](./README_WIZARD.md)
+[中文文档](./README_CN.md) | English | [Ɯɨʐǟʀɖ](./README_WIZARD.md)
 
 A simple, fast, and convenient terminal text converter that transforms regular letters into wizard characters.
 
@@ -18,7 +18,7 @@ A simple, fast, and convenient terminal text converter that transforms regular l
 
 | Normal | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
 |--------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **Wizard** | **Ǟ** | **Ɓ** | **Ƈ** | **Ɖ** | **Ɛ** | **Ƒ** | **Ɠ** | **Ɦ** | **Ɨ** | **Ɉ** | **Ӄ** | **Ł** | **Ɱ** | **Ռ** | **Ø** | **Ք** | **Զ** | **Ʀ** | **Ֆ** | **Ƭ** | **Ʊ** | **Ʋ** | **Ꝡ** | **Ҳ** | **Ƴ** | **Ȥ** |
+| **Wizard** | **Ǟ** | **Ɓ** | **Ƈ** | **Ɖ** | **Ɛ** | **Ƒ** | **Ɠ** | **Ӈ** | **Ɨ** | **Ɉ** | **Ӄ** | **Ł** | **Ɱ** | **Ռ** | **Ø** | **Ք** | **Զ** | **Ʀ** | **Ֆ** | **Ƭ** | **Ʊ** | **Ʋ** | **Ɯ** | **Ҳ** | **Ƴ** | **Ȥ** |
 
 > **Note**: All mappings are **one-to-one** (bijective), ensuring perfect reversibility. Modified characters (B,F,G,J,L,M,O,T,W,X,Y,Z) use visually similar Unicode glyphs to eliminate ambiguity.
 
@@ -138,11 +138,11 @@ wizard_text_generator -r "ɦɛʟʟօ աօʀʟɖ"
 
 # Uppercase conversion
 wizard_text_generator "HELLO WORLD"
-# Output: ꞪƐŁŁØ ꝠØƦŁƉ
+# Output: ӇƐŁŁØ ƜØƦŁƉ
 
 # Mixed case
 wizard_text_generator "Hello World"
-# Output: Ɦɛʟʟօ Ꝡօʀʟɖ
+# Output: Ӈɛʟʟօ Ɯօʀʟɖ
 ```
 
 ### 2. Pipe Input
@@ -176,11 +176,11 @@ echo "Rust is awesome" | wizard_text_generator
 
 # Full uppercase alphabet conversion
 ./target/release/wizard_text_generator "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-# Output: ǞƁƇƉƐƑƓꞪƗɈӃŁⱮՌØՔԶƦՖƬƱƲꝠҲƳȤ
+# Output: ǞƁƇƉƐƑƓӇƗɈӃŁⱮՌØՔԶƦՖƬƱƲƜҲƳȤ
 
 # Mixed text (non-alphabetic characters remain unchanged)
 ./target/release/wizard_text_generator "Hello, World! 123"
-# Output: Ɦɛʟʟօ, Ꝡօʀʟɖ! 123
+# Output: Ӈɛʟʟօ, Ɯօʀʟɖ! 123
 
 # Reverse conversion
 ./target/release/wizard_text_generator -r "ɦɛʟʟօ"
