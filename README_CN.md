@@ -1,6 +1,6 @@
 # ꝡizardTextGenerator
 
-中文 | [English](./README.md)
+中文 | [English](./README.md) | [Ꝡɨʐǟʀɖ](./README_WIZARD.md)
 
 一个简单、快速、方便的终端文本转换工具，将普通字母转换为ꝡɨʐǟʀɖ字符。
 

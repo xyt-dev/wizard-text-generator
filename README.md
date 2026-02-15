@@ -1,6 +1,6 @@
 # ꝡizardTextGenerator
 
-[中文文档](./README_CN.md) | English
+[中文文档](./README_CN.md) | English | [Ꝡɨʐǟʀɖ](./README_WIZARD.md)
 
 A simple, fast, and convenient terminal text converter that transforms regular letters into wizard characters.
 
