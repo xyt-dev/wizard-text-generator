@@ -108,7 +108,7 @@ $ wtg
     ╔══════════════════════════════════════════════╗
     ║   ꝡizardTextGenerator                        ║
     ║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━     ║
-    ║   Ŧʀǟռֆʄօʀʍ ȶɛӼȶ ɨռȶօ ʍǟɢɨƈǟʟ ƈɦǟʀǟƈȶɛʀֆ     ║
+    ║   Ƭʀǟռֆʄօʀʍ ȶɛӼȶ ɨռȶօ ʍǟɢɨƈǟʟ ƈɦǟʀǟƈȶɛʀֆ     ║
     ╚══════════════════════════════════════════════╝
 
 Type text to convert (auto-detects direction), Ctrl+D to exit
@@ -118,8 +118,8 @@ Type text to convert (auto-detects direction), Ctrl+D to exit
 > ɦɛʟʟօ աօʀʟɖ
 hello world
 > The Quick Brown Fox
-Ŧɦɛ Զʊɨƈӄ Ɓʀօառ ƑօӼ
-> Ŧɦɛ Զʊɨƈӄ Ɓʀօառ ƑօӼ
+Ƭɦɛ Զʊɨƈӄ Ɓʀօառ ƑօӼ
+> Ƭɦɛ Զʊɨƈӄ Ɓʀօառ ƑօӼ
 The Quick Brown Fox
 > ^D
 Goodbye!
