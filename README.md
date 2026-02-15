@@ -1,16 +1,10 @@
 # ꝡizardTextGenerator
 
-```
-    ╔══════════════════════════════════════════════╗
-    ║   ꝡizardTextGenerator                        ║
-    ║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━     ║
-    ║   Ŧʀǟռֆʄօʀʍ ȶɛӼȶ ɨռȶօ ʍǟɢɨƈǟʟ ƈɦǟʀǟƈȶɛʀֆ     ║
-    ╚══════════════════════════════════════════════╝
-```
-
 [中文文档](./README_CN.md) | English
 
 A simple, fast, and convenient terminal text converter that transforms regular letters into wizard characters.
+
+Ǟ ֆɨʍքʟɛ, ʄǟֆȶ, ǟռɖ ƈօռʋɛռɨɛռȶ ȶɛʀʍɨռǟʟ ȶɛӼȶ ƈօռʋɛʀȶɛʀ ȶɦǟȶ ȶʀǟռֆʄօʀʍֆ ʀɛɢʊʟǟʀ ʟɛȶȶɛʀֆ ɨռȶօ աɨʐǟʀɖ ƈɦǟʀǟƈȶɛʀֆ.
 
 ## Character Mapping
 
