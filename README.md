@@ -101,10 +101,9 @@ Example session:
 $ wtg
 
     ╔══════════════════════════════════════════════╗
-    ║   ꝡ  WizardTextGenerator  ✧               ║
-    ║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║
-    ║   Transform text into magical characters    ║
-    ║   将文本转换为魔法字符                        ║
+    ║   ꝡizardTextGenerator                        ║
+    ║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━     ║
+    ║   Ŧʀǟռֆʄօʀʍ ȶɛӼȶ ɨռȶօ ʍǟɢɨƈǟʟ ƈɦǟʀǟƈȶɛʀֆ     ║
     ╚══════════════════════════════════════════════╝
 
 Type text to convert (auto-detects direction), Ctrl+D to exit
