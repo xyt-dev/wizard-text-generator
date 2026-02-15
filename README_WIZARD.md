@@ -38,7 +38,7 @@ cargo build --release
 cargo install --path .
 ```
 
-Ƭɦɨֆ աɨʟʟ ɨռֆȶǟʟʟ ȶɦɛ ɮɨռǟʀʏ ȶօ `~/.cargo/bin/wizard_text_generator` (ʍǟӄɛ ֆʊʀɛ `~/.cargo/bin` ɨֆ ɨռ ʏօʊʀ ՔǞƬꞪ)
+Ƭɦɨֆ աɨʟʟ ɨռֆȶǟʟʟ ȶɦɛ ɮɨռǟʀʏ ȶօ `~/.cargo/bin/wizard_text_generator` (ʍǟӄɛ ֆʊʀɛ `~/.cargo/bin` ɨֆ ɨռ ʏօʊʀ ՔǞƬӇ)
 
 ```bash
 # Øքȶɨօռǟʟ: Ƈʀɛǟȶɛ ǟ ֆɦօʀȶɛʀ ǟʟɨǟֆ
