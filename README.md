@@ -1,4 +1,4 @@
-# ƜizardTextGenerator
+# WizardTextGenerator
 
 [中文文档](./README_CN.md) | English | [Ɯɨʐǟʀɖ](./README_WIZARD.md)
 
