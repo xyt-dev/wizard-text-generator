@@ -47,3 +47,5 @@ jobs:
           file: target/${{ matrix.target }}/release/${{ matrix.artifact_name }}
           asset_name: ${{ matrix.asset_name }}
           tag: ${{ github.ref }}
+          overwrite: true
+          make_latest: true
